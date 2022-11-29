@@ -1,0 +1,16 @@
+# ThanThoai
+
+
+[Server]
+flask_debug = true
+enable_swagger = true
+
+
+[Logging]
+level = "DEBUG"
+
+
+[App]
+error_404 = false
+validator = "service.validator"
+
